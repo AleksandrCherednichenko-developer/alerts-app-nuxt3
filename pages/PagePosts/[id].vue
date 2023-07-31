@@ -14,12 +14,14 @@
                     text="Delete"
                     icon-name="delete"
                     css-modifier="delete"
+                    class="page__post-btn"
                     @click="deletePost"
                 />
                 <SimpleButton
                     text="Save"
                     icon-name="save"
                     css-modifier="save"
+                    class="page__post-btn"
                     @click="saveChanged"
                 />
             </div>

@@ -11,4 +11,14 @@
     @include hover() {
         box-shadow: 0 0 10px 10px rgba($cBlue, 0.4), 0 0 7px 7px rgba($cBlue, 0.4), 0 0 5px 5px rgba($cBlue, 0.4);
     }
+
+    &.load-shadow {
+        animation: pulse 1.3s infinite;
+
+        &:disabled {
+            opacity: 0.6;
+            cursor: wait !important;
+        }
+    }
 }
+
