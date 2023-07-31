@@ -1,0 +1,8 @@
+.placeholder-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: calc-rem(250px);
+    font-weight: $fwBold;
+}

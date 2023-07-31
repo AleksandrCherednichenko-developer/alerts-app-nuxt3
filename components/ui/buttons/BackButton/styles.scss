@@ -1,0 +1,27 @@
+.back__button {
+    @include clear-button;
+    display: flex;
+    align-items: center;
+    gap: calc-rem(16px);
+
+    &-icon {
+        @include size(25px);
+        @include transit('fill');
+    }
+
+    &-text {
+        @include transit('text-shadow');
+    }
+
+    @include hover() {
+        .back__button {
+            &-icon {
+                fill: rgba($cBlue, 0.8);
+            }
+
+            &-text {
+                text-shadow: 0 0 25px $cBlue, 0 0 20px $cBlue, 0 0 15px $cBlue;
+            }
+        }
+    }
+}

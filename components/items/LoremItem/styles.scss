@@ -1,0 +1,8 @@
+.lorem__item{
+    display: flex;
+    flex-direction: column;
+    gap: calc-rem(10px);
+    background: linear-gradient(315deg, rgba(51, 123, 190, 0.20) 0%, rgba(51, 123, 190, 0.00) 100%), rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: calc-rem(20px);
+}
