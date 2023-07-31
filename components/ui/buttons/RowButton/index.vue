@@ -5,7 +5,7 @@
         :class="[
             'row-button',
             'uppercase-text',
-            {'button-load-shadow':props.disabled},
+            {'load-shadow':props.disabled},
         ]"
     >
         {{ props.text }}
