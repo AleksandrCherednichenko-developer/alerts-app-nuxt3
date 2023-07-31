@@ -11,7 +11,7 @@
         "postinstall": "nuxt prepare",
         "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
         "test:unit": "vitest run",
-        "predeploy": "npm run build",
+        "predeploy": "nuxt generate",
         "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
